@@ -12,7 +12,7 @@ As the planet orbits its host, the star also makes a small orbit around the comm
 ## Problem We’re Attempting to Solve
 Despite the leaps and bounds that have allowed us to detect more than 3500 exoplanets there are limits to our current practice. One of these limits is noisy data. Noise is something that gets in the way of our perception of these star, such as dust clouds and asteroids that fall in the line of sight from our detection devices to the star. So far, much of the previous work has been in using machine learning models to reduce the noise in raw data and other such analysis on exoplanet transit data in order to increase the reliability of detection. A deeper question, however, is “how likely is a star to host a planet, given its spectral characteristics?” Not much work has been done in answering this question. Using a database that lists over 6000 stars’ properties, our project will attempt to find relationships between the composition of a star and how likely the star is to host a planet. In essence, this project will attempt to answer the question: “What types of stars are most likely to host a planet?” 
 
-## Data we’re using
+## Data We’re Using
 
 The Hypatia Catalog is a publicly available dataset, which is a compilation of about 6000 known nearby stars (including both exo-hosts and non exo-hosts). It includes data about spectral abundance, temperature, luminosity, mass, disk thickness, and number of exoplanets. Using the Hypatia Catalog, we aim to cluster stars by all of the aforementioned features to find which regions of “spectral space” are most likely to host exoplanets.
 
