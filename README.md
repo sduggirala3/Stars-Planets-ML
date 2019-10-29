@@ -50,7 +50,7 @@ From the GMM algorithm, we were able to get the distribution of the characterist
 Then, with the cluster with the highest host probability, we were able to extract the means for the different characteristics for the cluster most likely to host a planet. The value of these means makes the “spectral region”, in which a star is most likely to host a planet. The following shows this region: When we checked the means of the stellar elemental composition for the cluster most likely to host a planet, we saw that they closely matched that of the Sun, which was an interesting find. 
 To find the most appropriate number of clusters when analyzing these stars, we looked analyzed the probability of a cluster containing a host planet in the data for 1-20 clusters. When comparing the data using different amounts of clusters, we compared the clusters with the highest probability of having a host planet and created the visualization below to show that separating the data into 14 clusters is the most effective for this analysis (as seen with the graph below).
 
-## Future work
+## Future Work
 
 In the future, any additional analysis to be done would require more star data. This way, we can fit our model to a bigger dataset to see if it holds for a larger sample.
 The application of our model is for astronomers who want to look for a planet in the future. They can look for stars that have similar characteristics to stars in the cluster with the highest probability of hosting a planet.
